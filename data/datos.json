@@ -3,7 +3,7 @@
         {
             "empresa": "Desarrollo de software · Freelance",
             "cargo": "Desarrollador full stack",
-            "periodo": "2013 – actual",
+            "periodo": "2013-03-14 – actual",
             "ubicacion": "Tehuacán, Puebla",
             "logros": [
                 "Desarrollo e implementación de sistemas web a medida para clientes locales.",
@@ -13,13 +13,27 @@
             ]
         },
         {
-            "empresa": "Proyectos para sector comercial e industrial",
-            "cargo": "Desarrollador de software",
-            "periodo": "2022 – 2025",
+            "empresa": "bmc Amozoc",
+            "cargo": "Lider de proyecto y desarrollador full stack",
+            "periodo": "2025-08 – 2025-10",
+            "ubicacion": "Amozoc de mota, Puebla",
+            "logros": [
+                "Obtencion de mas clientes para BMC Amozoc.",
+                "Módulos  personalizados con usuarios, roles y permisos en el sitio.",
+                "Sitio corporativo con panel administrativo para BMC Amozoc (en producción)."
+            ]
+        },
+        {
+            "empresa": "Metrología aplicada S.A. de C.V.",
+            "cargo": "Programador",
+            "periodo": "2022-01-30 – 2025-10-06",
             "ubicacion": "Tehuacán, Puebla",
             "logros": [
                 "Sistema de ventas de servicios de pruebas de Hermeticidad, Limpiesza ecológica, verificación de bombas para gasolineras (ServES).",
                 "Módulos de usuarios, roles y permisos en aplicaciones empresariales.",
+                "Diseño e implementación de bases de datos relacionales con MariaDB.",
+                "Creación de nuevas tablas y relaciones para el sistema ServES.",
+                "Mantenimiento y actualización de sistemas existentes.",
                 "Sitio corporativo con panel administrativo para BMC Amozoc (en producción)."
             ]
         }
