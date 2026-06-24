@@ -75,7 +75,7 @@
             "resultado": "Sistema en operación diaria para el control de servicios en estaciones de servicio.",
             "tecnologias": "Java, Spring Boot, Maven, GraphQL, MariaDB, JavaScript, Git",
             "imagen": "img/proyectos/serves.png",
-            "url": "https://github.com/JesusRLdev"
+            "url": "https://serves.metrologiaaplicada.com/ServesTodo/serves_vistas/login.html"
         }
     ]
 }
