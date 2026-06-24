@@ -1,33 +1,30 @@
 export default class Proyectos {
 
-    constructor(nombre, descripcion, tecnologias, imagen,url) {
-        this.nombre = nombre;
-        this.descripcion = descripcion;
-        this.tecnologias = tecnologias;
-        this.imagen = imagen;
-        this.url = url;
+    constructor(datos) {
+        this.nombre = datos.nombre;
+        this.rol = datos.rol || '';
+        this.periodo = datos.periodo || '';
+        this.estado = datos.estado || '';
+        this.problema = datos.problema || '';
+        this.descripcion = datos.descripcion;
+        this.resultado = datos.resultado || '';
+        this.tecnologias = datos.tecnologias;
+        this.imagen = datos.imagen;
+        this.url = datos.url;
     }
 
     static async obtenerProyectos() {
-
-        const response = await fetch("./data/datos.json");
+        const response = await fetch('./data/datos.json');
         const data = await response.json();
 
-        return data.proyectos.map(
-            proyecto => new Proyectos(
-                proyecto.nombre,
-                proyecto.descripcion,
-                proyecto.tecnologias,
-                proyecto.imagen,
-                proyecto.url
-            )
-        );
+        return data.proyectos.map(proyecto => new Proyectos(proyecto));
     }
 
     crearCard() {
+        const meta = [this.rol, this.periodo, this.estado].filter(Boolean).join(' · ');
 
         return `
-            <div class="col-md-4 mb-4">
+            <div class="col-lg-6 mb-4">
                 <article class="card proyecto-card shadow h-100">
 
                     <img src="${this.imagen}"
@@ -41,9 +38,15 @@ export default class Proyectos {
                             ${this.nombre}
                         </h3>
 
+                        ${meta ? `<p class="text-muted small mb-2">${meta}</p>` : ''}
+
+                        ${this.problema ? `<p class="card-text"><strong>Problema:</strong> ${this.problema}</p>` : ''}
+
                         <p class="card-text flex-grow-1">
                             ${this.descripcion}
                         </p>
+
+                        ${this.resultado ? `<p class="card-text"><strong>Resultado:</strong> ${this.resultado}</p>` : ''}
 
                         <p class="text-muted small mb-3">
                             ${this.tecnologias}

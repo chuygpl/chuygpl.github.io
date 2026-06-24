@@ -15,7 +15,6 @@ body {
     min-height: 100vh;
 }
 
-/* Caja transparente */
 .contenido-principal {
     background-color: rgba(255, 255, 255, 0.88);
     border-radius: 20px;
@@ -35,4 +34,70 @@ body {
 
 .proyecto-card .card-body {
     gap: 0.25rem;
+}
+
+.timeline {
+    position: relative;
+    padding-left: 2rem;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 0.45rem;
+    top: 0.5rem;
+    bottom: 0.5rem;
+    width: 2px;
+    background-color: #dee2e6;
+}
+
+.timeline-item {
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+.timeline-item:last-child {
+    padding-bottom: 0;
+}
+
+.timeline-marker {
+    position: absolute;
+    left: -1.55rem;
+    top: 0.35rem;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #212529;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 2px #212529;
+}
+
+.timeline-content {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 1.25rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.timeline-content ul {
+    padding-left: 1.25rem;
+}
+
+.contacto-enlaces a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contacto-enlaces a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+    .timeline {
+        padding-left: 1.5rem;
+    }
+
+    .timeline-marker {
+        left: -1.3rem;
+    }
 }

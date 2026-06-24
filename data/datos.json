@@ -1,25 +1,67 @@
 {
-    "proyectos":[
-       {
-            "nombre":"bmc-amozoc",
-            "descripcion": "Página que muestra los productos y servicios que ofrece BMC cuenta con un panel administrativo.",
-            "tecnologias": "JavaScript, Git, MariaDB, Debian 13, Apache, GraphQL y Node.js.",
-            "imagen":"img/proyectos/bmc-amozoc.png",
-            "url":"https://bmc-amozoc.com.mx/"
+    "experiencia": [
+        {
+            "empresa": "Desarrollo de software · Freelance",
+            "cargo": "Desarrollador full stack",
+            "periodo": "2019 – actual",
+            "ubicacion": "Tehuacán, Puebla",
+            "logros": [
+                "Desarrollo e implementación de sistemas web a medida para clientes locales.",
+                "Diseño e implementación de bases de datos relacionales con MariaDB.",
+                "Despliegue y mantenimiento en servidores Linux (Debian/Ubuntu) con Apache.",
+                "Stack habitual: Java, Spring Boot, Node.js, GraphQL y JavaScript."
+            ]
         },
         {
-            "nombre":"ServES",
-            "descripcion": "Sistema para la gestión de servicios brindados a gasolineras.",
-            "tecnologias": "JavaScript, Git, MariaDB, Ubuntu 14, Apache, GraphQL, Maven, Spring Boot y Java.",
-            "imagen":"img/proyectos/serves.png",
-            "url":"https://chuygpl.github.io"
+            "empresa": "Proyectos para sector comercial e industrial",
+            "cargo": "Desarrollador de software",
+            "periodo": "2020 – actual",
+            "ubicacion": "Tehuacán, Puebla",
+            "logros": [
+                "Sistema de ventas e inventario para gasolineras (ServES).",
+                "Módulos de usuarios, roles y permisos en aplicaciones empresariales.",
+                "Sitio corporativo con panel administrativo para BMC Amozoc (en producción)."
+            ]
+        }
+    ],
+    "formacion": [
+        {
+            "titulo": "Ingeniería en Sistemas Computacionales",
+            "institucion": "Instituto Tecnológico de Tehuacán",
+            "periodo": "2014 – 2018"
+        }
+    ],
+    "habilidades": {
+        "backend": ["Java", "Spring Boot", "Node.js", "GraphQL", "Maven"],
+        "frontend": ["JavaScript", "HTML", "CSS", "Bootstrap"],
+        "basesDeDatos": ["MariaDB", "Diseño relacional", "Consultas SQL"],
+        "infra": ["Linux (Debian/Ubuntu)", "Apache", "Git"],
+        "dominios": ["Ventas e inventario", "Usuarios y permisos", "Paneles administrativos", "Sitios corporativos"]
+    },
+    "proyectos": [
+        {
+            "nombre": "BMC Amozoc",
+            "rol": "Desarrollador full stack",
+            "periodo": "2023 – 2024",
+            "estado": "En producción",
+            "problema": "El cliente necesitaba mostrar productos y servicios en línea y administrar el contenido sin depender de un tercero.",
+            "descripcion": "Sitio público con panel administrativo; backend con Node.js y GraphQL; base de datos MariaDB; despliegue en Debian con Apache.",
+            "resultado": "Sitio activo en bmc-amozoc.com.mx con gestión autónoma del contenido.",
+            "tecnologias": "JavaScript, Node.js, GraphQL, MariaDB, Apache, Debian, Git",
+            "imagen": "img/proyectos/bmc-amozoc.png",
+            "url": "https://bmc-amozoc.com.mx/"
         },
         {
-            "nombre":"Base de datos",
-            "descripcion": "Ejemplo de una base de datos relacional en mariadb.",
-            "tecnologias": "MariaDB.",
-            "imagen":"img/proyectos/bd.png",
-            "url":"https://chuygpl.github.io"
+            "nombre": "ServES",
+            "rol": "Desarrollador backend / full stack",
+            "periodo": "2021 – 2023",
+            "estado": "En uso",
+            "problema": "Gestión de servicios prestados a gasolineras: registro, seguimiento y administración centralizada.",
+            "descripcion": "API y lógica de negocio con Spring Boot y Java; GraphQL; MariaDB; despliegue en Ubuntu con Apache.",
+            "resultado": "Sistema en operación diaria para el control de servicios en estaciones de servicio.",
+            "tecnologias": "Java, Spring Boot, Maven, GraphQL, MariaDB, JavaScript, Git",
+            "imagen": "img/proyectos/serves.png",
+            "url": "https://github.com/JesusRLdev"
         }
     ]
 }
