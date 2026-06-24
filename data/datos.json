@@ -3,7 +3,7 @@
         {
             "empresa": "Desarrollo de software · Freelance",
             "cargo": "Desarrollador full stack",
-            "periodo": "2019 – actual",
+            "periodo": "2013 – actual",
             "ubicacion": "Tehuacán, Puebla",
             "logros": [
                 "Desarrollo e implementación de sistemas web a medida para clientes locales.",
@@ -15,10 +15,10 @@
         {
             "empresa": "Proyectos para sector comercial e industrial",
             "cargo": "Desarrollador de software",
-            "periodo": "2020 – actual",
+            "periodo": "2022 – 2025",
             "ubicacion": "Tehuacán, Puebla",
             "logros": [
-                "Sistema de ventas e inventario para gasolineras (ServES).",
+                "Sistema de ventas de servicios de pruebas de Hermeticidad, Limpiesza ecológica, verificación de bombas para gasolineras (ServES).",
                 "Módulos de usuarios, roles y permisos en aplicaciones empresariales.",
                 "Sitio corporativo con panel administrativo para BMC Amozoc (en producción)."
             ]
@@ -27,8 +27,8 @@
     "formacion": [
         {
             "titulo": "Ingeniería en Sistemas Computacionales",
-            "institucion": "Instituto Tecnológico de Tehuacán",
-            "periodo": "2014 – 2018"
+            "institucion": "Instituto de Estudios Superiores del Estado (IESE)",
+            "periodo": "2008 – 2013"
         }
     ],
     "habilidades": {
