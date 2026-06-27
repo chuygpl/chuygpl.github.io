@@ -1,106 +1,155 @@
 {
-    "experiencia": [
-        {
-            "empresa": "Dharma Software · Freelance",
-            "cargo": "Desarrollador full stack",
-            "periodo": "2013-03-14 – actual",
-            "ubicacion": "Tehuacán, Puebla",
-            "logros": [
-                "Desarrollo e implementación de sistemas web a medida para clientes locales.",
-                "Diseño e implementación de bases de datos relacionales con MariaDB.",
-                "Despliegue y mantenimiento en servidores Linux (Debian/Ubuntu) con Apache.",
-                "Stack habitual: Java, Spring Boot, Node.js, GraphQL y JavaScript."
-            ]
-        },
-        {
-            "empresa": "bmc Amozoc",
-            "cargo": "Lider de proyecto y desarrollador full stack",
-            "periodo": "2025-08 – 2025-10",
-            "ubicacion": "Amozoc de mota, Puebla",
-            "logros": [
-                "Obtencion de mas clientes para BMC Amozoc.",
-                "Módulos  personalizados con usuarios, roles y permisos en el sitio.",
-                "Sitio corporativo con panel administrativo para BMC Amozoc (en producción)."
-            ]
-        },
-        {
-            "empresa": "Metrología aplicada S.A. de C.V.",
-            "cargo": "Programador",
-            "periodo": "2022-01-30 – 2025-10-06",
-            "ubicacion": "Tehuacán, Puebla",
-            "logros": [
-                "Sistema de ventas de servicios de pruebas de Hermeticidad, Limpiesza ecológica, verificación de bombas para gasolineras (ServES).",
-                "Módulos de usuarios, roles y permisos en aplicaciones empresariales.",
-                "Diseño e implementación de bases de datos relacionales con MariaDB.",
-                "Creación de nuevas tablas y relaciones para el sistema ServES.",
-                "Mantenimiento y actualización de sistemas existentes.",
-                "Despliegue y mantenimiento en servidores Linux (Ubuntu) con Apache y Tomcat 7."
-            ]
-        },
-        {
-            "empresa": "Esc. Sec. Jorge L. Tamayo",
-            "cargo": "Pasante de desarrollo de sistemas",
-            "periodo": "2012 – 2013",
-            "ubicacion": "Tehuacán, Puebla",
-            "logros": [
-                "Desarrollo de sistema de Inventario de equipo de computo en cada aula de la institución.",
-                "Manejo de estado del equipo de computo al entrar cada turno.",
-                "Fecha de ultimo mantenimiento de equipo de computo.",
-                "Módulos de usuarios, roles y permisos en el sistema.",
-                "Diseño e implementación de base de datos relacional con MySQL."
-            ]
-        }
-    ],
-    "formacion": [
-        {
-            "titulo": "Ingeniería en Sistemas Computacionales",
-            "institucion": "Instituto de Estudios Superiores del Estado (IESE)",
-            "periodo": "2008 – 2013"
-        }
-    ],
-    "habilidades": {
-        "backend": ["Java", "Spring Boot", "Node.js", "GraphQL", "Maven"],
-        "frontend": ["JavaScript", "HTML", "CSS", "Bootstrap"],
-        "basesDeDatos": ["MariaDB", "Diseño relacional", "Consultas SQL"],
-        "infra": ["Linux (Debian/Ubuntu)", "Apache", "Git"],
-        "dominios": ["Ventas e inventario", "Usuarios y permisos", "Paneles administrativos", "Sitios corporativos"]
+  "experiencia": [
+    {
+      "empresa": "Dharma Software · Freelance",
+      "cargo": "Desarrollador Full Stack",
+      "periodo": "2013-03-14 – Actualidad",
+      "ubicacion": "Tehuacán, Puebla",
+      "logros": [
+        "Desarrollo e implementación de sistemas web a medida para clientes locales.",
+        "Diseño e implementación de bases de datos relacionales con MariaDB.",
+        "Despliegue y mantenimiento de aplicaciones en servidores Linux (Debian y Ubuntu) utilizando Apache.",
+        "Desarrollo de soluciones utilizando Java, Spring Boot, Node.js, GraphQL y JavaScript.",
+        "Implementación de paneles administrativos con autenticación, usuarios, roles y permisos."
+      ]
     },
-    "proyectos": [
-        {
-            "nombre": "BMC Amozoc",
-            "rol": "Desarrollador full stack",
-            "periodo": "2025-08 – 2025-10",
-            "estado": "En producción",
-            "problema": "El cliente necesitaba mostrar productos y servicios en línea y administrar el contenido sin depender de un tercero.",
-            "descripcion": "Sitio público con panel administrativo; backend con Node.js y GraphQL; base de datos MariaDB; despliegue en Debian con Apache.",
-            "resultado": "Sitio activo en bmc-amozoc.com.mx con gestión autónoma del contenido.",
-            "tecnologias": "JavaScript, Node.js, GraphQL, MariaDB, Apache, Debian, Git",
-            "imagen": "img/proyectos/bmc-amozoc.png",
-            "url": "https://bmc-amozoc.com.mx/"
-        },
-        {
-            "nombre": "ServES",
-            "rol": "Progtramador",
-            "periodo": "2022-01-30 – 2025-10-06",
-            "estado": "En uso",
-            "problema": "Gestión de servicios prestados a gasolineras: registro, seguimiento y administración centralizada.",
-            "descripcion": "API y lógica de negocio con Spring Boot y Java; GraphQL; MariaDB; despliegue en Ubuntu con Apache.",
-            "resultado": "Sistema en operación diaria para el control de servicios en estaciones de servicio.",
-            "tecnologias": "Java, Spring Boot, Maven, GraphQL, MariaDB, JavaScript, Git",
-            "imagen": "img/proyectos/serves.png",
-            "url": "https://serves.metrologiaaplicada.com/ServesTodo/serves_vistas/login.html"
-        },
-        {
-            "nombre": "Sistema de Inventario de equipo de computo",
-            "rol": "Pasante de desarrollo de sistemas",
-            "periodo": "2012 – 2013",
-            "estado": "En uso",
-            "problema": "La institución necesitaba un sistema para llevar el control del inventario de equipo de computo en cada aula asi como su estado al entrar cada turno.",
-            "descripcion": "Sistema de Escritorio con C# y MySQL; módulos de usuarios, roles y permisos; despliegue en servidor local.",
-            "resultado": "Sistema implementado y utilizado para la gestión del inventario de equipo de computo. respinsable de grupo y profesor que revisaba el estado del equipo de computo.",
-            "tecnologias": "MySQL, c#",
-            "imagen": "img/proyectos/inventario.png",
-            "url": ""
-        }
+    {
+      "empresa": "BMC Amozoc",
+      "cargo": "Líder de Proyecto y Desarrollador Full Stack",
+      "periodo": "2025-08 – 2025-10",
+      "ubicacion": "Amozoc, Puebla",
+      "logros": [
+        "Participación en la captación de nuevos clientes para la empresa.",
+        "Desarrollo del sitio corporativo con panel administrativo para la gestión de contenido.",
+        "Implementación de módulos de autenticación, usuarios, roles y permisos.",
+        "Despliegue de la aplicación en ambiente de producción."
+      ]
+    },
+    {
+      "empresa": "Metrología Aplicada S.A. de C.V.",
+      "cargo": "Programador Full Stack",
+      "periodo": "2022-01-30 – 2025-10-06",
+      "ubicacion": "Tehuacán, Puebla",
+      "logros": [
+        "Desarrollo y mantenimiento del sistema ServES para la administración de servicios especializados.",
+        "Implementación de módulos de usuarios, roles y permisos.",
+        "Diseño e implementación de bases de datos relacionales con MariaDB.",
+        "Diseño de nuevas tablas, relaciones y consultas SQL para nuevas funcionalidades.",
+        "Mantenimiento evolutivo y correctivo de aplicaciones empresariales.",
+        "Despliegue y mantenimiento de aplicaciones en servidores Ubuntu con Apache y Tomcat 7."
+      ]
+    },
+    {
+      "empresa": "Escuela Secundaria Jorge L. Tamayo",
+      "cargo": "Pasante de Desarrollo de Sistemas",
+      "periodo": "2012 – 2013",
+      "ubicacion": "Tehuacán, Puebla",
+      "logros": [
+        "Desarrollo de un sistema de inventario para el control de equipos de cómputo por aula.",
+        "Implementación del registro del estado de los equipos por turno.",
+        "Control del historial y fechas de mantenimiento de los equipos.",
+        "Desarrollo de módulos de usuarios, roles y permisos.",
+        "Diseño e implementación de la base de datos relacional con MySQL."
+      ]
+    }
+  ],
+  "formacion": [
+    {
+      "titulo": "Ingeniería en Sistemas Computacionales",
+      "institucion": "Instituto de Estudios Superiores del Estado (IESE)",
+      "periodo": "2008 – 2013"
+    }
+  ],
+  "habilidades": {
+    "backend": [
+      "Java",
+      "Spring Boot",
+      "Node.js",
+      "GraphQL",
+      "Maven"
+    ],
+    "frontend": [
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "Bootstrap"
+    ],
+    "basesDeDatos": [
+      "MariaDB",
+      "MySQL",
+      "Diseño de bases de datos relacionales",
+      "Consultas SQL"
+    ],
+    "infraestructura": [
+      "Linux (Debian/Ubuntu)",
+      "Apache",
+      "Tomcat",
+      "Git"
+    ],
+    "dominios": [
+      "Sistemas administrativos",
+      "Ventas",
+      "Inventarios",
+      "Usuarios, roles y permisos",
+      "Paneles administrativos",
+      "Sitios corporativos"
     ]
+  },
+  "proyectos": [
+    {
+      "nombre": "BMC Amozoc",
+      "rol": "Líder de Proyecto y Desarrollador Full Stack",
+      "periodo": "2025-08 – 2025-10",
+      "estado": "En producción",
+      "problema": "El cliente necesitaba mostrar sus productos y servicios en línea y administrar el contenido sin depender de terceros.",
+      "descripcion": "Desarrollo de un sitio corporativo con panel administrativo. Backend desarrollado con Node.js y GraphQL, base de datos MariaDB y despliegue en Debian utilizando Apache.",
+      "resultado": "Sitio web en producción con administración autónoma del contenido.",
+      "tecnologias": [
+        "JavaScript",
+        "Node.js",
+        "GraphQL",
+        "MariaDB",
+        "Apache",
+        "Debian",
+        "Git"
+      ],
+      "imagen": "img/proyectos/bmc-amozoc.png",
+      "url": "https://bmc-amozoc.com.mx/"
+    },
+    {
+      "nombre": "ServES",
+      "rol": "Programador Full Stack",
+      "periodo": "2022-01-30 – 2025-10-06",
+      "estado": "En uso",
+      "problema": "Administrar los servicios especializados prestados a estaciones de servicio mediante un sistema centralizado.",
+      "descripcion": "Desarrollo de la lógica de negocio con Java y Spring Boot, implementación de GraphQL, MariaDB y mantenimiento del sistema en producción.",
+      "resultado": "Sistema utilizado diariamente para la gestión y seguimiento de servicios especializados.",
+      "tecnologias": [
+        "Java",
+        "Spring Boot",
+        "Maven",
+        "GraphQL",
+        "MariaDB",
+        "JavaScript",
+        "Git"
+      ],
+      "imagen": "img/proyectos/serves.png",
+      "url": "https://serves.metrologiaaplicada.com/ServesTodo/serves_vistas/login.html"
+    },
+    {
+      "nombre": "Sistema de Inventario de Equipo de Cómputo",
+      "rol": "Pasante de Desarrollo de Sistemas",
+      "periodo": "2012 – 2013",
+      "estado": "Implementado",
+      "problema": "La institución necesitaba controlar el inventario y el estado de los equipos de cómputo en cada aula.",
+      "descripcion": "Aplicación de escritorio desarrollada en C# con MySQL, incluyendo módulos de usuarios, roles, permisos y control de mantenimiento.",
+      "resultado": "Sistema implementado para el control del inventario y seguimiento del estado de los equipos por responsables de grupo y docentes.",
+      "tecnologias": [
+        "C#",
+        "MySQL"
+      ],
+      "imagen": "img/proyectos/inventario.png",
+      "url": ""
+    }
+  ]
 }
