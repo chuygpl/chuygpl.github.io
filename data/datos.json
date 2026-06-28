@@ -58,7 +58,7 @@
       "titulo": "Ingeniería en Sistemas Computacionales",
       "institucion": "Instituto de Estudios Superiores del Estado (IESE)",
       "periodo": "2008 – 2013",
-      "imagen": "img/iese.png"
+      "imagen": "../img/iese.png"
     }
   ],
   "habilidades": {
@@ -114,7 +114,7 @@
         "Debian",
         "Git"
       ],
-      "imagen": "img/proyectos/bmc-amozoc.png",
+      "imagen": "../img/proyectos/bmc-amozoc.png",
       "url": "https://bmc-amozoc.com.mx/"
     },
     {
@@ -134,7 +134,7 @@
         "JavaScript",
         "Git"
       ],
-      "imagen": "img/proyectos/serves.png",
+      "imagen": "../img/proyectos/serves.png",
       "url": "https://serves.metrologiaaplicada.com/ServesTodo/serves_vistas/login.html"
     },
     {
@@ -149,7 +149,7 @@
         "C#",
         "MySQL"
       ],
-      "imagen": "img/proyectos/inventario.png",
+      "imagen": "../img/proyectos/default.png",
       "url": ""
     }
   ]
